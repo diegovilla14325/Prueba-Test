@@ -15,11 +15,11 @@ namespace Domain.Entities.Company
         [Key]
         public int idPremioCanjeado {  get; set; }
 
-        [ForeignKey("idPremio")]
+        [ForeignKey("rewards")]
         public int idPremio {  get; set; }
         public virtual Reward rewards { get; set; }
 
-        [ForeignKey("idUsuario")]
+        [ForeignKey("users")]
         public int idUsuario { get; set; }
         public virtual User users { get; set; }
 

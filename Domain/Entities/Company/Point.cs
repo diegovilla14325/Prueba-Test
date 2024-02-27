@@ -16,7 +16,7 @@ namespace Domain.Entities.Company
         [Key]
         public int idPuntos {  get; set; }
 
-        [ForeignKey("idUsuario")]
+        [ForeignKey("users")]
         public int IdUsuario { get; set; }
         public virtual User users { get; set; }
 

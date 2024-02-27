@@ -23,7 +23,7 @@ namespace Domain.Entities.Company
         public DateTime fechaCompra { get; set; }
 
 
-        [ForeignKey("idUsuario")]
+        [ForeignKey("users")]
         public int idUsuario { get; set; }
         public virtual User users { get; set; }
 

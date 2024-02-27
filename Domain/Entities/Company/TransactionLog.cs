@@ -14,11 +14,11 @@ namespace Domain.Entities.Company
         [Key]
         public int idDetalleCOmpra {  get; set; }
 
-        [ForeignKey("idCompra")]
+        [ForeignKey("transactions")]
         public int idCompra { get; set; }
         public virtual Transaction transactions { get; set; }
 
-        [ForeignKey("idProducto")]
+        [ForeignKey("products")]
         public int idProducto { get; set; }
         public virtual Product products { get; set; }
 

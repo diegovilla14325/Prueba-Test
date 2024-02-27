@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TPAk/PnD9SCTsH2jNJBtsoesjZ2DDEzHoh9OI9eKVGQpgfxu1eWv1bI1HyzSg8cTWkH8olgI1/X/M26IJ8dgnA==",
+  "dgSpecHash": "dj4SwXkIKHWZkz8Oq6DoAwoue/pAI5sjWqdxahucNjfdXIPO1Vqp0zGyan4Ah8djZQyqH2oKJ9GHczJ4KNZoNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\diego\\source\\repos\\LealtadAPI\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\diego.baeza\\Desktop\\PruebaTest\\Prueba-Test\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

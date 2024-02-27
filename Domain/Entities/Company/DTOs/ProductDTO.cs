@@ -16,7 +16,7 @@ namespace Domain.Entities.Company.DTOs
 
         public double precio { get; set; }
 
-        public virtual ICollection<TransactionLog> transactionLogs { get; set; }
+        
     }
 }
 

@@ -119,10 +119,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/6.0.25": {
+      "Microsoft.EntityFrameworkCore.Relational/6.0.27": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.25",
+          "Microsoft.EntityFrameworkCore": "6.0.27",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
         },
         "compile": {
@@ -820,6 +820,7 @@
         "dependencies": {
           "Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.27",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.27",
           "MySql.EntityFrameworkCore": "6.0.25"
         },
         "compile": {
@@ -981,17 +982,17 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/6.0.25": {
-      "sha512": "ci2lR++x7R7LR71+HoeRnB9Z5VeOQ1ILLbFRhsjjWZyLrAMkdq7TK9Ll47jo1TXDWF8Ddeap1JgcptgPKkWSRA==",
+    "Microsoft.EntityFrameworkCore.Relational/6.0.27": {
+      "sha512": "OaxySZ/RhQUVNKdfhInhHO8ht7e+VniIsCSqfnqPqjPzNodLlfxn2mM3nGn4fbHHQaGVQHlQWUGa/Xac3egEKg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/6.0.25",
+      "path": "microsoft.entityframeworkcore.relational/6.0.27",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.6.0.25.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.6.0.27.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
@@ -2411,23 +2412,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\diego\\.nuget\\packages\\": {},
+    "C:\\Users\\diego.baeza\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diego\\source\\repos\\LealtadAPI\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\diego.baeza\\Desktop\\PruebaTest\\Prueba-Test\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\Users\\diego\\source\\repos\\LealtadAPI\\Service\\Service.csproj",
-      "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diego\\source\\repos\\LealtadAPI\\Service\\obj\\",
+      "projectPath": "C:\\Users\\diego.baeza\\Desktop\\PruebaTest\\Prueba-Test\\Service\\Service.csproj",
+      "packagesPath": "C:\\Users\\diego.baeza\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\diego.baeza\\Desktop\\PruebaTest\\Prueba-Test\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\diego.baeza\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2442,11 +2443,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\diego\\source\\repos\\LealtadAPI\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\diego\\source\\repos\\LealtadAPI\\Domain\\Domain.csproj"
+            "C:\\Users\\diego.baeza\\Desktop\\PruebaTest\\Prueba-Test\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\diego.baeza\\Desktop\\PruebaTest\\Prueba-Test\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\diego\\source\\repos\\LealtadAPI\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\diego\\source\\repos\\LealtadAPI\\Repository\\Repository.csproj"
+            "C:\\Users\\diego.baeza\\Desktop\\PruebaTest\\Prueba-Test\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\diego.baeza\\Desktop\\PruebaTest\\Prueba-Test\\Repository\\Repository.csproj"
             }
           }
         }
@@ -2455,11 +2456,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2481,7 +2477,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
