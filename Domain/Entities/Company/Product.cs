@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Domain.Entities.Company
@@ -12,17 +13,17 @@ namespace Domain.Entities.Company
 
     public class Product
     {
-        public Product() 
-        {
-            transactionLogs = new List<TransactionLog>();        
-        }
+        //public Product()
+        //{
+        //    transactionLogs = new List<TransactionLog>();
+        //}
         [Key]
         public int idProducto { get; set; }
 
         public string nombreProducto { get; set; }
 
         public double precio { get; set; }
-
-        public virtual ICollection<TransactionLog> transactionLogs { get; set; }
+        //[JsonIgnore]
+       // public virtual ICollection<TransactionLog> transactionLogs { get; set; }
     }
 }

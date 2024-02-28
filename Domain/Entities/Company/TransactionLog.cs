@@ -18,9 +18,9 @@ namespace Domain.Entities.Company
         public int idCompra { get; set; }
         public virtual Transaction transactions { get; set; }
 
-        [ForeignKey("products")]
+        //[ForeignKey("products")]
         public int idProducto { get; set; }
-        public virtual Product products { get; set; }
+        //public virtual Product products { get; set; }
 
         public int cantidad {  get; set; }
 

@@ -163,8 +163,6 @@ namespace Repository.Migrations
 
                     b.HasIndex("idCompra");
 
-                    b.HasIndex("idProducto");
-
                     b.ToTable("detallescomprasrealizadas");
                 });
 
@@ -239,20 +237,7 @@ namespace Repository.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Domain.Entities.Company.Product", "products")
-                        .WithMany("transactionLogs")
-                        .HasForeignKey("idProducto")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("products");
-
                     b.Navigation("transactions");
-                });
-
-            modelBuilder.Entity("Domain.Entities.Company.Product", b =>
-                {
-                    b.Navigation("transactionLogs");
                 });
 
             modelBuilder.Entity("Domain.Entities.Company.Reward", b =>

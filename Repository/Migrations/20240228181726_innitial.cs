@@ -28,6 +28,7 @@ namespace Repository.Migrations
                 })
                 .Annotation("MySQL:Charset", "utf8mb4");
 
+           
 
             migrationBuilder.CreateTable(
                 name: "productos",
@@ -152,12 +153,6 @@ namespace Repository.Migrations
                         principalTable: "comprasrealizadas",
                         principalColumn: "idCompra",
                         onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_detallescomprasrealizadas_productos_idProducto",
-                        column: x => x.idProducto,
-                        principalTable: "productos",
-                        principalColumn: "idProducto",
-                        onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySQL:Charset", "utf8mb4");
 
@@ -170,11 +165,6 @@ namespace Repository.Migrations
                 name: "IX_detallescomprasrealizadas_idCompra",
                 table: "detallescomprasrealizadas",
                 column: "idCompra");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_detallescomprasrealizadas_idProducto",
-                table: "detallescomprasrealizadas",
-                column: "idProducto");
 
             migrationBuilder.CreateIndex(
                 name: "IX_premioscanjeados_idPremio",
@@ -202,13 +192,13 @@ namespace Repository.Migrations
 
 
             migrationBuilder.DropTable(
+                name: "productos");
+
+            migrationBuilder.DropTable(
                 name: "puntos");
 
             migrationBuilder.DropTable(
                 name: "comprasrealizadas");
-
-            migrationBuilder.DropTable(
-                name: "productos");
 
             migrationBuilder.DropTable(
                 name: "premios");

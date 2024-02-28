@@ -16,10 +16,13 @@ namespace Repository.Repositories
         {
 
         }
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) 
+            : base(options)
         {
 
         }
+
         public virtual DbSet<Product> Products { get; set; }
 
         public virtual DbSet<Reward> Rewards { get; set; }
@@ -34,6 +37,13 @@ namespace Repository.Repositories
 
         public virtual DbSet<User> Users { get; set; }
 
+        //Data Transfer Objects
         public virtual DbSet<ProductDTO> ProductDTOs { get; set; }
+
+        public override Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = new CancellationToken())
+        {
+            return base.SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken);
+        }
     }
+
 }

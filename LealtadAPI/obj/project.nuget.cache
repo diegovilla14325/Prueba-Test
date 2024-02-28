@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2FEc3k0IQb9rj9psSQOdHlGnW7mR0+Y/Mvjc+ib/1fhH6HYdQf8YntAkyNSJ64Hg57PN6ivts32jTUdqvdINhQ==",
+  "dgSpecHash": "XLRsTMENqOzS9kVfD+jEEVBJ5Lxv/N21mCUMn1ClIk9NSfrPVLjbHwvjCnrcNhXG083sf03/eSot5lWaR5zl9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\diego.baeza\\Desktop\\PruebaTest\\Prueba-Test\\LealtadAPI\\LealtadAPI.csproj",
+  "projectFilePath": "C:\\Users\\diego.baeza\\Pictures\\Test\\Test\\Prueba-Test\\LealtadAPI\\LealtadAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego.baeza\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\diego.baeza\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",
