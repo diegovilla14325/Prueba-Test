@@ -1,8 +1,40 @@
 [
   {
-    "ContainingType": "LealtadAPI.Controllers.Company.TransactionController",
+    "ContainingType": "LealtadAPI.Controllers.Company.ProductController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/product/createproduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productdto",
+        "Type": "Domain.Entities.Company.DTOs.ProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LealtadAPI.Controllers.Company.ProductController",
+    "Method": "GetProductByIds",
+    "RelativePath": "api/product/getproductid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProducto",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LealtadAPI.Controllers.Company.ProductController",
     "Method": "GetProducts",
-    "RelativePath": "api/transaction",
+    "RelativePath": "api/product/getproducts",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -25,17 +57,132 @@
     ]
   },
   {
+    "ContainingType": "LealtadAPI.Controllers.Company.RewardController",
+    "Method": "CreateReward",
+    "RelativePath": "api/reward/createreward",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rewarddto",
+        "Type": "Domain.Entities.Company.DTOs.RewardDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LealtadAPI.Controllers.Company.RewardController",
+    "Method": "GetRewards",
+    "RelativePath": "api/reward/getrewards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "LealtadAPI.Controllers.Company.RewardController",
+    "Method": "RedeemPrize",
+    "RelativePath": "api/reward/redeemprize",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rewardlogdto",
+        "Type": "Domain.Entities.Company.DTOs.RewardLogDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LealtadAPI.Controllers.Company.TransactionController",
-    "Method": "GetProductByIds",
-    "RelativePath": "api/transaction/getproducts",
+    "Method": "SaveTransaction",
+    "RelativePath": "api/transaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactiondto",
+        "Type": "Domain.Entities.Company.DTOs.TransactionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LealtadAPI.Controllers.Security.UserController",
+    "Method": "GetUserDetail",
+    "RelativePath": "api/user/getuserdetail",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "idProducto",
+        "Name": "id_Usuario",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LealtadAPI.Controllers.Security.UserController",
+    "Method": "Login",
+    "RelativePath": "api/user/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userCredentials",
+        "Type": "Domain.Entities.Security.UserCredentials",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.Security.UserResponseAuth",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LealtadAPI.Controllers.Security.UserController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/user/registeruser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userdto",
+        "Type": "Domain.Entities.Company.DTOs.UserDTO",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

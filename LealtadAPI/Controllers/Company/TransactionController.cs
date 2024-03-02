@@ -14,50 +14,17 @@ namespace LealtadAPI.Controllers.Company
         {
             _transaccionService = transactionService;
         }
-        [HttpGet]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> GetProducts()
-        {
-            var response= await _transaccionService.GetProducts();
-            if(!response.Any())
-            {
-                return BadRequest("No se encontraron productos");
-            }
-            return Ok(response);
-        }
-
-        [HttpGet]
-        [Route("GetProductId")]
-        public async Task<IActionResult> GetProductByIds(int idProducto)
-        {
-            var response = await _transaccionService.GetProductByIds(idProducto);
-            if (!response.Any())
-            {
-                return BadRequest("No se encontraron productos");
-            }
-            return Ok(response);
-        }
-        [HttpPost]
-        [Route("CreateProduct")]
-        public async Task<IActionResult> CreateProduct([FromBody]ProductDTO productdto)
-        {
-            if(!ModelState.IsValid)
-            {
-                return BadRequest("Escribe bien los datos");
-            }
-            var response =   _transaccionService.CreateProduct(productdto);
-            return Ok(response);
-        }
+        
         [HttpPost]
         public async Task<IActionResult> SaveTransaction([FromBody] TransactionDTO transactiondto)
         {
             if(!ModelState.IsValid)
             {
-                return BadRequest("Mmste");
+                return BadRequest("No se pudo realizar la compra");
             }
             var response = _transaccionService.SaveTransaction(transactiondto);
             return Ok(response);
         }
+       
     }
 }
