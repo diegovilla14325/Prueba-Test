@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Domain.Entities.Company
@@ -16,11 +17,13 @@ namespace Domain.Entities.Company
 
         [ForeignKey("transactions")]
         public int idCompra { get; set; }
+        [JsonIgnore]
         public virtual Transaction transactions { get; set; }
 
-        //[ForeignKey("products")]
+        [ForeignKey("products")]
         public int idProducto { get; set; }
-        //public virtual Product products { get; set; }
+        [JsonIgnore]
+        public virtual Product products { get; set; }
 
         public int cantidad {  get; set; }
 

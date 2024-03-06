@@ -2,11 +2,6 @@
 using Domain.Entities.Company.DTOs;
 using Domain.Entities.Security;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Repository.Repositories
 {
@@ -17,8 +12,7 @@ namespace Repository.Repositories
 
         }
 
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) 
-            : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
 
         }
@@ -40,10 +34,19 @@ namespace Repository.Repositories
         //Data Transfer Objects
         public virtual DbSet<ProductDTO> ProductDTOs { get; set; }
 
-        public override Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = new CancellationToken())
-        {
-            return base.SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken);
-        }
+        public virtual DbSet<UserDTO> UserDTOs { get; set;}
+
+        public virtual DbSet<LoginDTO> LoginDTOs { get; set; }
+
+        public virtual DbSet<RewardDTO> RewardDTOs { get; set;}
+
+        public virtual DbSet<UserPointsDTO> UserPointsDTOs { get; set; }
+
+        public virtual DbSet<RewardLogDTO> RewardLogDTOs { get;set; }
+        //public override Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = new CancellationToken())
+        //{
+        //    return base.SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken);
+        //}
     }
 
 }

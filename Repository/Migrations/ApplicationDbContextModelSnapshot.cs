@@ -34,7 +34,7 @@ namespace Repository.Migrations
 
                     b.HasKey("idProducto");
 
-                    b.ToTable("ProductDTOs");
+                    b.ToTable("ProductDTOs", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Entities.Company.Point", b =>
@@ -53,7 +53,7 @@ namespace Repository.Migrations
 
                     b.HasIndex("IdUsuario");
 
-                    b.ToTable("puntos");
+                    b.ToTable("puntos", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Entities.Company.Product", b =>
@@ -71,7 +71,7 @@ namespace Repository.Migrations
 
                     b.HasKey("idProducto");
 
-                    b.ToTable("productos");
+                    b.ToTable("productos", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Entities.Company.Reward", b =>
@@ -89,7 +89,7 @@ namespace Repository.Migrations
 
                     b.HasKey("idPremio");
 
-                    b.ToTable("premios");
+                    b.ToTable("premios", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Entities.Company.RewardLog", b =>
@@ -113,7 +113,7 @@ namespace Repository.Migrations
 
                     b.HasIndex("idUsuario");
 
-                    b.ToTable("premioscanjeados");
+                    b.ToTable("premioscanjeados", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Entities.Company.Transaction", b =>
@@ -135,7 +135,7 @@ namespace Repository.Migrations
 
                     b.HasIndex("idUsuario");
 
-                    b.ToTable("comprasrealizadas");
+                    b.ToTable("comprasrealizadas", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Entities.Company.TransactionLog", b =>
@@ -163,7 +163,7 @@ namespace Repository.Migrations
 
                     b.HasIndex("idCompra");
 
-                    b.ToTable("detallescomprasrealizadas");
+                    b.ToTable("detallescomprasrealizadas", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Entities.Security.User", b =>
@@ -185,7 +185,7 @@ namespace Repository.Migrations
 
                     b.HasKey("idUsario");
 
-                    b.ToTable("usuarios");
+                    b.ToTable("usuarios", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Entities.Company.Point", b =>

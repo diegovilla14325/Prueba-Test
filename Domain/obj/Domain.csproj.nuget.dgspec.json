@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diego.baeza\\Pictures\\Test\\Test\\Prueba-Test\\Domain\\Domain.csproj": {}
+    "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diego.baeza\\Pictures\\Test\\Test\\Prueba-Test\\Domain\\Domain.csproj": {
+    "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diego.baeza\\Pictures\\Test\\Test\\Prueba-Test\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\diego.baeza\\Pictures\\Test\\Test\\Prueba-Test\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\diego.baeza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diego.baeza\\Pictures\\Test\\Test\\Prueba-Test\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\diego.baeza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -59,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

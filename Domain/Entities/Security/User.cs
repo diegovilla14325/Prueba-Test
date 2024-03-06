@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Domain.Entities.Security
@@ -14,23 +15,23 @@ namespace Domain.Entities.Security
     {   public User()
         {
             transactions = new List<Transaction>();
-            points = new List<Point>();
+            point = new List<Point>();
             rewardLogs= new List<RewardLog>();
         }
 
         [Key]
-        public int idUsario {  get; set; }
+        public int idUsuario {  get; set; }
 
-        public string nombreUsuario { get; set; }
+        public string correoUsuario { get; set; }
 
         public string contraseña { get; set; }
 
         public DateTime diaRegistro { get; set; }
-
+        [JsonIgnore]
         public virtual ICollection<Transaction> transactions { get; set; }
-
-        public virtual ICollection<Point> points { get; set; }
-
+        [JsonIgnore]
+        public virtual ICollection<Point> point { get; set; }
+        [JsonIgnore]
         public virtual ICollection<RewardLog> rewardLogs { get; set; }
     }
 }

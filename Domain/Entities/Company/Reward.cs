@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Domain.Entities.Company
@@ -20,7 +21,7 @@ namespace Domain.Entities.Company
         public string nombrePremio { get; set; }
 
         public int ValorEnPuntos { get; set; }
-
+        [JsonIgnore]
         public virtual ICollection<RewardLog> rewardLogs { get; set; }
     }
 }

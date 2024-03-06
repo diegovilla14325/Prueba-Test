@@ -1,5 +1,6 @@
 ﻿using Domain.Entities.Company;
 using Domain.Entities.Company.DTOs;
+using Domain.Entities.Security;
 using Repository.Repositories.Company;
 using Service.IService.Company;
 using System;
@@ -19,52 +20,8 @@ namespace Service.Service.Company
             _transactionsRepository = transactionsRepository;
         }
 
-        public async Task<List<ProductDTO>> GetProducts() { 
-            var Products= new List<ProductDTO>();
-
-            try
-            {
-                Products = await _transactionsRepository.GetProducts();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            return Products;
-        }
-        public async Task<List<ProductDTO>> GetProductByIds(int idProducto)
-        {
-            var Products = new List<ProductDTO>();
-            try
-            {
-                Products = await _transactionsRepository.GetProductById(idProducto);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            return Products;
-        }
-        public async Task CreateProduct(ProductDTO productdto)
-        {
-            
-            try
-            {
-                var product = new Product();
-                product.nombreProducto = productdto.nombreProducto;
-                product.precio = productdto.precio;
-
-                if (await _transactionsRepository.CreatedProduct(product) > 0)
-                {
-                    Console.WriteLine("imon");
-                }
-            }
-            
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-        }
+        
+        
         public async Task SaveTransaction(TransactionDTO transactiondto)
         {
             
@@ -76,6 +33,7 @@ namespace Service.Service.Company
                     idUsuario = transactiondto.idUsuario,
                     fechaCompra = transactiondto.fechaCompra,
                     TotalCompra = transactiondto.totalCompra,
+                    PuntosObtenidos = Convert.ToInt32((transactiondto.totalCompra) / 2),
                 };
                 foreach (var item in transactiondto.transactionLogs)
                 {
@@ -90,7 +48,7 @@ namespace Service.Service.Company
 
                 if(await _transactionsRepository.SaveTransaction(transaction) > 0)
                 {
-                    Console.WriteLine("imon");
+                    Console.WriteLine("Compra realizada");
                 }
 
             }

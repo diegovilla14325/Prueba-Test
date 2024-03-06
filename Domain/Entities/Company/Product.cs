@@ -13,17 +13,17 @@ namespace Domain.Entities.Company
 
     public class Product
     {
-        //public Product()
-        //{
-        //    transactionLogs = new List<TransactionLog>();
-        //}
+        public Product()
+        {
+            transactionLogs = new List<TransactionLog>();
+        }
         [Key]
         public int idProducto { get; set; }
 
         public string nombreProducto { get; set; }
 
         public double precio { get; set; }
-        //[JsonIgnore]
-       // public virtual ICollection<TransactionLog> transactionLogs { get; set; }
+        [JsonIgnore]
+        public virtual ICollection<TransactionLog> transactionLogs { get; set; }
     }
 }

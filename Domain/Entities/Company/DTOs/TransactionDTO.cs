@@ -17,6 +17,8 @@ namespace Domain.Entities.Company.DTOs
 
         public double totalCompra { get; set; }
 
+        public int PuntosObtenidos { get; set; }
+
         public List<TransactionLogDTO> transactionLogs { get; set; }
     }
 }

@@ -3,40 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{014083C3-D88C-4A2F-8DB2-1A8338EE14C1}|LealtadAPI\\LealtadAPI.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\lealtadapi\\controllers\\company\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{014083C3-D88C-4A2F-8DB2-1A8338EE14C1}|LealtadAPI\\LealtadAPI.csproj|solutionrelative:lealtadapi\\controllers\\company\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{014083C3-D88C-4A2F-8DB2-1A8338EE14C1}|LealtadAPI\\LealtadAPI.csproj|c:\\users\\diego\\desktop\\test\\prueba-test\\lealtadapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{014083C3-D88C-4A2F-8DB2-1A8338EE14C1}|LealtadAPI\\LealtadAPI.csproj|solutionrelative:lealtadapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{014083C3-D88C-4A2F-8DB2-1A8338EE14C1}|LealtadAPI\\LealtadAPI.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\lealtadapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{014083C3-D88C-4A2F-8DB2-1A8338EE14C1}|LealtadAPI\\LealtadAPI.csproj|solutionrelative:lealtadapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E768B5F-4A80-4AB6-8280-BEFFB10411E2}|Service\\Service.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\service\\iservice\\company\\itransaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E768B5F-4A80-4AB6-8280-BEFFB10411E2}|Service\\Service.csproj|solutionrelative:service\\iservice\\company\\itransaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{014083C3-D88C-4A2F-8DB2-1A8338EE14C1}|LealtadAPI\\LealtadAPI.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\lealtadapi\\controllers\\company\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014083C3-D88C-4A2F-8DB2-1A8338EE14C1}|LealtadAPI\\LealtadAPI.csproj|solutionrelative:lealtadapi\\controllers\\company\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E768B5F-4A80-4AB6-8280-BEFFB10411E2}|Service\\Service.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\service\\service\\company\\transaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E768B5F-4A80-4AB6-8280-BEFFB10411E2}|Service\\Service.csproj|solutionrelative:service\\service\\company\\transaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EB10D76-EB77-4D81-8D4F-C9D08A91DD5A}|Repository\\Repository.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\repository\\repositories\\company\\rewardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EB10D76-EB77-4D81-8D4F-C9D08A91DD5A}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\company\\rewardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EB10D76-EB77-4D81-8D4F-C9D08A91DD5A}|Repository\\Repository.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\repository\\repositories\\company\\transactionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EB10D76-EB77-4D81-8D4F-C9D08A91DD5A}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\company\\transactionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E768B5F-4A80-4AB6-8280-BEFFB10411E2}|Service\\Service.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\service\\service\\company\\rewardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E768B5F-4A80-4AB6-8280-BEFFB10411E2}|Service\\Service.csproj|solutionrelative:service\\service\\company\\rewardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EB10D76-EB77-4D81-8D4F-C9D08A91DD5A}|Repository\\Repository.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\repository\\repositories\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EB10D76-EB77-4D81-8D4F-C9D08A91DD5A}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{014083C3-D88C-4A2F-8DB2-1A8338EE14C1}|LealtadAPI\\LealtadAPI.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\lealtadapi\\controllers\\company\\rewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014083C3-D88C-4A2F-8DB2-1A8338EE14C1}|LealtadAPI\\LealtadAPI.csproj|solutionrelative:lealtadapi\\controllers\\company\\rewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06FB347C-3549-480A-891C-8975FA2244F5}|Domain\\Domain.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\domain\\entities\\company\\reward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06FB347C-3549-480A-891C-8975FA2244F5}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\company\\reward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EB10D76-EB77-4D81-8D4F-C9D08A91DD5A}|Repository\\Repository.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\repository\\repositories\\security\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EB10D76-EB77-4D81-8D4F-C9D08A91DD5A}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\security\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{014083C3-D88C-4A2F-8DB2-1A8338EE14C1}|LealtadAPI\\LealtadAPI.csproj|c:\\users\\diego\\desktop\\test\\prueba-test\\lealtadapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{014083C3-D88C-4A2F-8DB2-1A8338EE14C1}|LealtadAPI\\LealtadAPI.csproj|solutionrelative:lealtadapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{06FB347C-3549-480A-891C-8975FA2244F5}|Domain\\Domain.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\domain\\entities\\company\\dtos\\userpointsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06FB347C-3549-480A-891C-8975FA2244F5}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\company\\dtos\\userpointsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{014083C3-D88C-4A2F-8DB2-1A8338EE14C1}|LealtadAPI\\LealtadAPI.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\lealtadapi\\lealtadapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{014083C3-D88C-4A2F-8DB2-1A8338EE14C1}|LealtadAPI\\LealtadAPI.csproj|solutionrelative:lealtadapi\\lealtadapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{1E768B5F-4A80-4AB6-8280-BEFFB10411E2}|Service\\Service.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\service\\service\\security\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E768B5F-4A80-4AB6-8280-BEFFB10411E2}|Service\\Service.csproj|solutionrelative:service\\service\\security\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014083C3-D88C-4A2F-8DB2-1A8338EE14C1}|LealtadAPI\\LealtadAPI.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\lealtadapi\\controllers\\security\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014083C3-D88C-4A2F-8DB2-1A8338EE14C1}|LealtadAPI\\LealtadAPI.csproj|solutionrelative:lealtadapi\\controllers\\security\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06FB347C-3549-480A-891C-8975FA2244F5}|Domain\\Domain.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\domain\\entities\\security\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06FB347C-3549-480A-891C-8975FA2244F5}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\security\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06FB347C-3549-480A-891C-8975FA2244F5}|Domain\\Domain.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\domain\\entities\\company\\rewardlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06FB347C-3549-480A-891C-8975FA2244F5}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\company\\rewardlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06FB347C-3549-480A-891C-8975FA2244F5}|Domain\\Domain.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\domain\\entities\\company\\transactionlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06FB347C-3549-480A-891C-8975FA2244F5}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\company\\transactionlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06FB347C-3549-480A-891C-8975FA2244F5}|Domain\\Domain.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\domain\\entities\\company\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06FB347C-3549-480A-891C-8975FA2244F5}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\company\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06FB347C-3549-480A-891C-8975FA2244F5}|Domain\\Domain.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\domain\\entities\\company\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06FB347C-3549-480A-891C-8975FA2244F5}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\company\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06FB347C-3549-480A-891C-8975FA2244F5}|Domain\\Domain.csproj|C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\domain\\entities\\company\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06FB347C-3549-480A-891C-8975FA2244F5}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\company\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,68 +82,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Reward.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Entities\\Company\\Reward.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Company\\Reward.cs",
-              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Entities\\Company\\Reward.cs",
-              "RelativeToolTip": "Domain\\Entities\\Company\\Reward.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T00:48:04.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\LealtadAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "LealtadAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\LealtadAPI\\appsettings.json",
-              "RelativeToolTip": "LealtadAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-28T02:13:34.419Z",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\LealtadAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "LealtadAPI\\Dockerfile",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\LealtadAPI\\Dockerfile",
+              "RelativeToolTip": "LealtadAPI\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-02T22:02:19.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ITransaccionService.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Service\\IService\\Company\\ITransaccionService.cs",
-              "RelativeDocumentMoniker": "Service\\IService\\Company\\ITransaccionService.cs",
-              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Service\\IService\\Company\\ITransaccionService.cs",
-              "RelativeToolTip": "Service\\IService\\Company\\ITransaccionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\LealtadAPI\\Controllers\\Company\\ProductController.cs",
+              "RelativeDocumentMoniker": "LealtadAPI\\Controllers\\Company\\ProductController.cs",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\LealtadAPI\\Controllers\\Company\\ProductController.cs",
+              "RelativeToolTip": "LealtadAPI\\Controllers\\Company\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T00:48:04.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TransaccionService.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Service\\Service\\Company\\TransaccionService.cs",
-              "RelativeDocumentMoniker": "Service\\Service\\Company\\TransaccionService.cs",
-              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Service\\Service\\Company\\TransaccionService.cs",
-              "RelativeToolTip": "Service\\Service\\Company\\TransaccionService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwCYAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T00:48:04.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-02T21:25:56.301Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TransactionsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Repository\\Repositories\\Company\\TransactionsRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repositories\\Company\\TransactionsRepository.cs",
-              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Repository\\Repositories\\Company\\TransactionsRepository.cs",
-              "RelativeToolTip": "Repository\\Repositories\\Company\\TransactionsRepository.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAABqAAAA",
+              "Title": "RewardService.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Service\\Service\\Company\\RewardService.cs",
+              "RelativeDocumentMoniker": "Service\\Service\\Company\\RewardService.cs",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Service\\Service\\Company\\RewardService.cs",
+              "RelativeToolTip": "Service\\Service\\Company\\RewardService.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAUwD0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T00:48:04.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-02T20:37:32.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RewardController.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\LealtadAPI\\Controllers\\Company\\RewardController.cs",
+              "RelativeDocumentMoniker": "LealtadAPI\\Controllers\\Company\\RewardController.cs",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\LealtadAPI\\Controllers\\Company\\RewardController.cs",
+              "RelativeToolTip": "LealtadAPI\\Controllers\\Company\\RewardController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAUwDAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:37:32.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TransactionLog.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Entities\\Company\\TransactionLog.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Company\\TransactionLog.cs",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Entities\\Company\\TransactionLog.cs",
+              "RelativeToolTip": "Domain\\Entities\\Company\\TransactionLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:04:16.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Entities\\Company\\Product.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Company\\Product.cs",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Entities\\Company\\Product.cs",
+              "RelativeToolTip": "Domain\\Entities\\Company\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:04:05.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RewardLog.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Entities\\Company\\RewardLog.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Company\\RewardLog.cs",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Entities\\Company\\RewardLog.cs",
+              "RelativeToolTip": "Domain\\Entities\\Company\\RewardLog.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:03:22.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Entities\\Company\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Company\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Entities\\Company\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "Domain\\Entities\\Company\\DTOs\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T18:49:54.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserPointsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Entities\\Company\\DTOs\\UserPointsDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Company\\DTOs\\UserPointsDTO.cs",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Entities\\Company\\DTOs\\UserPointsDTO.cs",
+              "RelativeToolTip": "Domain\\Entities\\Company\\DTOs\\UserPointsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T19:44:15.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Entities\\Company\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Company\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Entities\\Company\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "Domain\\Entities\\Company\\DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T19:44:13.583Z"
             },
             {
               "$type": "Document",
@@ -125,49 +209,69 @@
               "RelativeDocumentMoniker": "LealtadAPI\\Program.cs",
               "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\LealtadAPI\\Program.cs",
               "RelativeToolTip": "LealtadAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T00:48:04.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-02T18:39:22.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Repository\\Repositories\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Repository\\Repositories\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Repository\\Repositories\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Repository\\Repositories\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBUAAAAJAAAA",
+              "DocumentIndex": 3,
+              "Title": "RewardRepository.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Repository\\Repositories\\Company\\RewardRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\Company\\RewardRepository.cs",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Repository\\Repositories\\Company\\RewardRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\Company\\RewardRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T00:48:04.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-02T20:37:32.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Entities\\Security\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Security\\User.cs",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Domain\\Entities\\Security\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\Security\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T19:43:59.064Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "LealtadAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\LealtadAPI\\LealtadAPI.csproj",
-              "RelativeDocumentMoniker": "LealtadAPI\\LealtadAPI.csproj",
-              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\LealtadAPI\\LealtadAPI.csproj",
-              "RelativeToolTip": "LealtadAPI\\LealtadAPI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-28T00:48:04.819Z",
-              "EditorCaption": ""
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Service\\Service\\Security\\UserService.cs",
+              "RelativeDocumentMoniker": "Service\\Service\\Security\\UserService.cs",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Service\\Service\\Security\\UserService.cs",
+              "RelativeToolTip": "Service\\Service\\Security\\UserService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswCsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T02:00:08.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TransactionController.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\LealtadAPI\\Controllers\\Company\\TransactionController.cs",
-              "RelativeDocumentMoniker": "LealtadAPI\\Controllers\\Company\\TransactionController.cs",
-              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\LealtadAPI\\Controllers\\Company\\TransactionController.cs",
-              "RelativeToolTip": "LealtadAPI\\Controllers\\Company\\TransactionController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAwA0AAAA1AAAA",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\LealtadAPI\\Controllers\\Security\\UserController.cs",
+              "RelativeDocumentMoniker": "LealtadAPI\\Controllers\\Security\\UserController.cs",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\LealtadAPI\\Controllers\\Security\\UserController.cs",
+              "RelativeToolTip": "LealtadAPI\\Controllers\\Security\\UserController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwEQAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T00:48:04.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-02T02:01:29.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Repository\\Repositories\\Security\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\Security\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\diego\\Desktop\\Test\\Prueba-Test\\Repository\\Repositories\\Security\\UserRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\Security\\UserRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T02:00:50.045Z"
             }
           ]
         }
